@@ -1,0 +1,11 @@
+component < BaseLayout title="Thanks friend" <
+    h3 <
+        Thanks for using this template
+    >
+    h2 <
+        I... I kneel
+    >
+    div <
+        img src="./assets/images/kneel.png" <>
+    >
+>>

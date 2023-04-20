@@ -1,0 +1,17 @@
+{
+  "name": "rc-ssg-template",
+  "version": "1.0.0",
+  "description": "RC Template for Static Site Generation",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "nodemon build.js -w web -e rc"
+  },
+  "author": "aldinh777",
+  "license": "ISC",
+  "devDependencies": {
+    "@aldinh777/reactive-cml": "^0.20.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  }
+}
